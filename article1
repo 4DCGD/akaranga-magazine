@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article 1 - Akaranga Magazine</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Akaranga Magazine</h1>
+            <p>Exploring the rich cultural heritage of Burundi</p>
+        </div>
+        <nav>
+            <a href="index.html#about">About</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="content">
+        <section>
+            <h2>Imigani (Proverbs) and Their Meanings</h2>
+            <p>Burundian proverbs, known as <em>Imigani</em>, are a treasure trove of wisdom and cultural insight. These proverbs are often used in everyday conversations to convey deep meanings and life lessons. Below are some examples of popular Burundian proverbs and their interpretations:</p>
+            
+            <h3>1. "Umwana w'umukobwa atagira inka, niwe w'umukobwa w'umukobwa."</h3>
+            <p><strong>Translation:</strong> "A girl without cows is not a real girl."</p>
+            <p><strong>Meaning:</strong> This proverb emphasizes the importance of wealth and social status in traditional Burundian society. Cows are a symbol of prosperity, and this proverb reflects the cultural value placed on material wealth.</p>
+
+            <h3>2. "Igitigiri kiri mu nda ntikigira umwobo."</h3>
+            <p><strong>Translation:</strong> "A secret in the belly has no hole."</p>
+            <p><strong>Meaning:</strong> This proverb highlights the importance of keeping secrets. It suggests that a secret is safest when it is kept within oneself and not shared with others.</p>
+
+            <h3>3. "Uwutazi amazi y'umunwa, atazi amazi y'umuhoro."</h3>
+            <p><strong>Translation:</strong> "He who does not know the water of the mouth, does not know the water of the machete."</p>
+            <p><strong>Meaning:</strong> This proverb implies that one who does not understand the value of words (spoken wisdom) will not understand the consequences of actions (violence).</p>
+
+            <p>These proverbs are just a glimpse into the rich oral tradition of Burundi. They reflect the values, beliefs, and wisdom of the Burundian people, passed down through generations.</p>
+
+            <p><strong>Source:</strong> <a href="https://www.yaga-burundi.com/" target="_blank">Yaga Burundi</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Akaranga Magazine. All rights reserved.</p>
+    </footer>
+</body>
+</html>
