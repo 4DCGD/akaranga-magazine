@@ -152,7 +152,7 @@ header .main-nav a:hover {
 .main-content {
     max-width: 800px; /* You can adjust this value as needed */
     width: 100%;
-    text-align: justify;
+    text-align: left; /* Changed from justify to left */
 }
 
 /* Optional: To make the image responsive */
@@ -160,6 +160,7 @@ header .main-nav a:hover {
     width: 100%;
     height: auto;
 }
+
 /* Newsletter Section */
 .newsletter {
     background-color: #004d40;
