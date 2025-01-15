@@ -142,6 +142,24 @@ header .main-nav a:hover {
     text-decoration: underline;
 }
 
+/* Center the article content */
+.article-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-content {
+    max-width: 800px; /* You can adjust this value as needed */
+    width: 100%;
+    text-align: justify;
+}
+
+/* Optional: To make the image responsive */
+.main-content .featured-image {
+    width: 100%;
+    height: auto;
+}
 /* Newsletter Section */
 .newsletter {
     background-color: #004d40;
