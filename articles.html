@@ -4,56 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles - Akaranga Magazine</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Akaranga Magazine</h1>
-        <p>Exploring the rich cultural heritage of Burundi</p>
+        <div class="logo">
+            <h1>Akaranga Magazine</h1>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
-    
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="articles.html">Articles</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    
-    <div class="content">
-        <section id="articles">
-            <h2>Featured Articles</h2>
-            
-            <!-- Article 1 -->
-            <article>
-                <h3>Imigani (Proverbs) and Their Meanings</h3>
-                <p>Discover the wisdom of Burundian proverbs and their deep cultural significance. Learn how these sayings reflect the values and traditions of Burundi.</p>
-                <a href="article1.html">Read More</a>
-            </article>
-            
-            <!-- Article 2 -->
-            <article>
-                <h3>Traditional Burundian Clothing and Accessories</h3>
-                <p>Explore the vibrant colors and intricate designs of traditional Burundian attire. From the iconic "umushanana" to handmade jewelry, dive into the world of Burundian fashion.</p>
-                <a href="article2.html">Read More</a>
-            </article>
-            
-            <!-- Article 3 -->
-            <article>
-                <h3>The Art of Drumming and Its Cultural Significance</h3>
-                <p>Delve into the history and cultural importance of drumming in Burundi. Learn about the rituals, techniques, and the role of drumming in Burundian society.</p>
-                <a href="article3.html">Read More</a>
-            </article>
-            
-            <!-- Article 4 -->
-            <article>
-                <h3>Delicious Recipes from Burundian Cuisine</h3>
-                <p>Experience the flavors of Burundi with traditional recipes. From "ubugali" to "isombe," learn how to prepare these dishes and bring a taste of Burundi to your kitchen.</p>
-                <a href="article4.html">Read More</a>
-            </article>
-        </section>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Featured Articles</h1>
+                <p>Explore the culture, traditions, and stories of Burundi through our curated articles.</p>
+            </div>
+        </div>
     </div>
-    
+
+    <!-- Articles Section -->
+    <div class="featured-articles">
+        <h2>Our Latest Stories</h2>
+        <div class="article-grid">
+            <!-- Article 1 -->
+            <div class="article-card">
+                <img src="images/article1.jpg" alt="Imigani Proverbs">
+                <h3>Imigani (Proverbs) and Their Meanings</h3>
+                <p>Discover the wisdom of Burundian proverbs and their deep cultural significance.</p>
+                <a href="article1.html" class="read-more">Read More</a>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="article-card">
+                <img src="images/article2.jpg" alt="Traditional Clothing">
+                <h3>Traditional Burundian Clothing and Accessories</h3>
+                <p>Explore the vibrant colors and intricate designs of traditional Burundian attire.</p>
+                <a href="article2.html" class="read-more">Read More</a>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="article-card">
+                <img src="images/article3.jpg" alt="Drumming Art">
+                <h3>The Art of Drumming and Its Cultural Significance</h3>
+                <p>Delve into the history and cultural importance of drumming in Burundi.</p>
+                <a href="article3.html" class="read-more">Read More</a>
+            </div>
+
+            <!-- Article 4 -->
+            <div class="article-card">
+                <img src="images/article4.jpg" alt="Burundian Cuisine">
+                <h3>Delicious Recipes from Burundian Cuisine</h3>
+                <p>Experience the flavors of Burundi with traditional recipes.</p>
+                <a href="article4.html" class="read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
     <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="articles.html">Articles</a>
+            <a href="contact.html">Contact</a>
+        </div>
         <p>&copy; 2025 Akaranga Magazine. All rights reserved.</p>
     </footer>
 </body>
