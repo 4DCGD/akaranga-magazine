@@ -191,6 +191,14 @@ header .main-nav a:hover {
     background-color: #b71c1c;
 }
 
+.Paragraph p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: #000;
+    margin-bottom: 1.75rem;
+    font-family: "Noto Serif";
+}
+
 /* Footer */
 footer {
     background-color: #333;
