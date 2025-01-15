@@ -4,66 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akaranga Magazine</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <div class="header-content">
-            <h1>Akaranga Magazine</h1>
-            <p>Exploring the rich cultural heritage of Burundi</p>
-        </div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="articles.html">Articles</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    
-    <div class="hero-section">
-        <div class="hero-content">
-            <h2>Welcome to Akaranga Magazine</h2>
-            <p>Discover the vibrant culture, traditions, and stories of Burundi.</p>
-            <a href="articles.html" class="cta-button">Explore Articles</a>
-        </div>
-    </div>
-    
-    <div class="content">
-        <section id="about">
-            <h2>About Akaranga Magazine</h2>
-            <p>Akaranga Magazine is dedicated to celebrating and preserving the vibrant cultural aspects of Burundi. From traditional dances and music to cuisine and customs, we bring you closer to the heart of Burundi's heritage.</p>
-        </section>
-        
-        <section id="articles">
-            <h2>Featured Articles</h2>
-            <div class="article-grid">
-                <div class="article-card">
-                    <h3>Imigani (Proverbs) and their meanings</h3>
-                    <p>Learn about the wisdom embedded in Burundian proverbs.</p>
-                </div>
-                <div class="article-card">
-                    <h3>Traditional Burundian clothing and accessories</h3>
-                    <p>Explore the beauty and significance of traditional attire.</p>
-                </div>
-                <div class="article-card">
-                    <h3>The art of drumming and its cultural significance</h3>
-                    <p>Discover the rhythms that define Burundian culture.</p>
-                </div>
-                <div class="article-card">
-                    <h3>Delicious recipes from Burundian cuisine</h3>
-                    <p>Taste the flavors of Burundi with authentic recipes.</p>
-                </div>
+        <div class="top-bar">
+            <div class="logo">
+                <h1>Akaranga Magazine</h1>
             </div>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Follow us on <a href="https://www.instagram.com/akaranga_magazine?igsh=MjJzeTVpNHhsMWlm&utm_source=qr" target="_blank" class="social-link">Instagram</a></p>
-            <p>We'd love to hear from you! Reach out to us at <strong>contact@akarangamagazine.bi</strong> or follow us on social media.</p>
-        </section>
-    </div>
-    
+            <nav class="main-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="articles.html">Articles</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1>Explore the Rich Heritage of Burundi</h1>
+                <p>Stay informed with the latest stories, culture, and traditions.</p>
+                <a href="articles.html" class="cta-button">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Articles Section -->
+    <section class="featured-articles">
+        <h2>Featured Stories</h2>
+        <div class="article-grid">
+            <article class="article-card">
+                <img src="images/article1.jpg" alt="Proverbs">
+                <h3>Imigani: Burundian Proverbs</h3>
+                <p>Delve into the wisdom of Burundi's cultural sayings.</p>
+                <a href="article1.html" class="read-more">Read More</a>
+            </article>
+            <article class="article-card">
+                <img src="images/article2.jpg" alt="Clothing">
+                <h3>Traditional Clothing</h3>
+                <p>Discover the beauty of Burundian traditional attire.</p>
+                <a href="article2.html" class="read-more">Read More</a>
+            </article>
+            <article class="article-card">
+                <img src="images/article3.jpg" alt="Drumming">
+                <h3>The Art of Drumming</h3>
+                <p>Learn about the cultural significance of Burundian drumming.</p>
+                <a href="article3.html" class="read-more">Read More</a>
+            </article>
+            <article class="article-card">
+                <img src="images/article4.jpg" alt="Cuisine">
+                <h3>Burundian Cuisine</h3>
+                <p>Experience the flavors of Burundi with authentic recipes.</p>
+                <a href="article4.html" class="read-more">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates and stories directly to your inbox.</p>
+        <form action="#" method="post" class="newsletter-form">
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Akaranga Magazine. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="articles.html">Articles</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2025 Akaranga Magazine. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
