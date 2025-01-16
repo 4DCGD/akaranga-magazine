@@ -56,10 +56,6 @@ header .main-nav a:hover {
     position: relative;
 }
 
-.hero-overlay {
-    padding: 80px 20px;
-}
-
 .hero-content h1 {
     font-size: 36px;
     margin-bottom: 20px;
