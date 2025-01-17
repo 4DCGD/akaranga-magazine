@@ -247,3 +247,30 @@ footer .footer-links a {
 footer .footer-links a:hover {
     color: #d32f2f;
 }
+
+
+.instagram-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    border: none;
+    border-radius: 30px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease-in-out;
+}
+
+.instagram-button:hover {
+    transform: scale(1.05); /* Slightly enlarges on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.instagram-button:active {
+    transform: scale(0.98); /* Slightly shrinks on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
