@@ -149,6 +149,11 @@ header .main-nav a:hover {
     padding: 20px;
 }
 
+.article-title::first-letter {
+    margin-left: -5px; /* Adjust the value as needed */
+}
+
+
 .main-content {
     max-width: 800px; /* You can adjust this value as needed */
     width: 100%;
