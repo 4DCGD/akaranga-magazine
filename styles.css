@@ -147,8 +147,6 @@ header .main-nav a:hover {
     display: flex;
     justify-content: center;
     padding: 20px;
-    margin-left: 20%; /* Adjust this value to move it further to the right */
-    text-align: left; /* Keeps the text aligned to the left inside the block */
 }
 
 .article-title {
