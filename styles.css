@@ -147,10 +147,13 @@ header .main-nav a:hover {
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin-left: 20%; /* Adjust this value to move it further to the right */
+    text-align: left; /* Keeps the text aligned to the left inside the block */
 }
 
-.article-title::first-letter {
-    margin-left: -5px; /* Adjust the value as needed */
+.article-title {
+    margin-left: 20%;
+    font-size: 24px; /* Optional: Adjust font size */
 }
 
 
