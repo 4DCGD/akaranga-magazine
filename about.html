@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Green Burundi</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Header Section -->
     <header>
         <div class="top-bar">
             <div class="logo">
-                <h1><a href="index.html">Green Burundi</a></h1> <br>
+                <h1><a href="index.html" class="home-link">Green Burundi</a></h1>
             </div>
             <nav class="main-nav">
                 <a href="index.html">Home</a>
-                <a href="about.html">About</a>
+                <a href="about.html" class="active">About</a>
                 <a href="articles.html">Articles</a>
                 <a href="contact.html">Contact</a>
             </nav>
@@ -25,29 +26,130 @@
     <!-- Main Content -->
     <main class="main-content">
         <h1>About Us</h1>
-        <p>Discover the mission and vision of Green Burundi.</p>
+        <p class="intro-text">Discover the story behind Green Burundi and our commitment to environmental sustainability in Burundi.</p>
 
         <section class="about-section">
-            <h2>About Green Burundi</h2>
-            <p>Green Burundi is dedicated to promoting environmental sustainability and climate action in Burundi. Our mission is to inspire and empower communities to take action towards a greener, more sustainable future.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-leaf"></i>
+                    <h2>Our Story</h2>
+                    <p>Founded in 2020, Green Burundi emerged from a deep concern for Burundi's environmental challenges. What started as a small group of passionate environmentalists has grown into a movement dedicated to creating lasting change in our communities.</p>
+                </div>
 
-            <h2>Our Mission</h2>
-            <p>We strive to raise awareness about environmental issues in Burundi and provide practical solutions for sustainable living. Through education, community engagement, and advocacy, we work to protect and restore Burundi's natural resources.</p>
+                <div class="about-card">
+                    <i class="fas fa-bullseye"></i>
+                    <h2>Our Mission</h2>
+                    <p>We strive to raise awareness about environmental issues in Burundi and provide practical solutions for sustainable living. Through education, community engagement, and advocacy, we work to protect and restore Burundi's natural resources.</p>
+                </div>
 
-            <h2>Our Vision</h2>
-            <p>We envision a Burundi where environmental consciousness is deeply embedded in every aspect of society, where communities thrive in harmony with nature, and where sustainable practices are the norm rather than the exception.</p>
+                <div class="about-card">
+                    <i class="fas fa-eye"></i>
+                    <h2>Our Vision</h2>
+                    <p>We envision a Burundi where environmental consciousness is deeply embedded in every aspect of society, where communities thrive in harmony with nature, and where sustainable practices are the norm rather than the exception.</p>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <h2>Our Core Values</h2>
+                <div class="values-grid">
+                    <div class="value-item">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Community</h3>
+                        <p>Building strong, sustainable communities through collaboration and shared responsibility.</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Sustainability</h3>
+                        <p>Promoting practices that ensure long-term environmental health and resource conservation.</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-book-reader"></i>
+                        <h3>Education</h3>
+                        <p>Empowering individuals through knowledge and awareness of environmental issues.</p>
+                    </div>
+                    <div class="value-item">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h3>Integrity</h3>
+                        <p>Maintaining transparency and ethical standards in all our actions and initiatives.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="impact-section">
+                <h2>Our Impact</h2>
+                <div class="impact-grid">
+                    <div class="impact-card">
+                        <span class="impact-number">1000+</span>
+                        <p>Trees Planted</p>
+                    </div>
+                    <div class="impact-card">
+                        <span class="impact-number">50+</span>
+                        <p>Community Projects</p>
+                    </div>
+                    <div class="impact-card">
+                        <span class="impact-number">2000+</span>
+                        <p>People Educated</p>
+                    </div>
+                    <div class="impact-card">
+                        <span class="impact-number">15+</span>
+                        <p>Partner Organizations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-section">
+                <h2>Join Our Team</h2>
+                <p>We're always looking for passionate individuals who share our vision for a greener Burundi. Whether you're interested in volunteering, partnerships, or career opportunities, we'd love to hear from you.</p>
+                <a href="contact.html" class="cta-button">Get Involved</a>
+            </div>
         </section>
     </main>
 
     <!-- Footer Section -->
     <footer>
         <div class="footer-content">
-            <div class="footer-links">
-                <a href="about.html">About</a>
-                <a href="articles.html">Articles</a>
-                <a href="contact.html">Contact</a>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Green Burundi is dedicated to promoting environmental sustainability and climate action in Burundi. Join us in our mission to create a greener future.</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
             </div>
-            <p>&copy; 2024 Green Burundi. All rights reserved.</p>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html"><i class="fas fa-chevron-right"></i>Home</a>
+                    <a href="about.html"><i class="fas fa-chevron-right"></i>About Us</a>
+                    <a href="articles.html"><i class="fas fa-chevron-right"></i>Articles</a>
+                    <a href="contact.html"><i class="fas fa-chevron-right"></i>Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <div class="footer-links">
+                    <a href="mailto:info@greenburundi.org"><i class="fas fa-envelope"></i>info@greenburundi.org</a>
+                    <a href="tel:+257123456789"><i class="fas fa-phone"></i>+257 123 456 789</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i>Bujumbura, Burundi</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for the latest updates and environmental news.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Green Burundi. All rights reserved. | Designed with <i class="fas fa-heart"></i> for a greener future</p>
         </div>
     </footer>
 </body>
